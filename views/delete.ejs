@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+     <div class="main w-full h-screen bg-zinc-900 p-10">
+          <a href="/"><button class="mt-4 text-blue-500">Go to Back</button></a>
+          <form action="/delete" method="post">
+               <input class="text-white bg-zinc-800 px-4 py-2 w-full rounded-lg mt-4" type="text" name="previous" placeholder="Title of the note" value="<%= filename %>">
+               <button class="mt-4 text-white bg-blue-500 px-5 py-2 rounded-md " name="Delete" type="submit">Delete</button>
+          </form>
+     </div>
+</body>
+</html>

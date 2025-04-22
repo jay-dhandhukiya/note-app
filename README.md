@@ -1,6 +1,6 @@
 # note-app
 
-Install node in node website
+Install node nodemodule in node website
   use packag:-
     1.express
     2.ejs
